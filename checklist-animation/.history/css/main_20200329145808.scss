@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round&display=swap");
+
+#checklist-container {
+  width: 100vw;
+  height: 100vh;
+  background: #e8ebf3;
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#checklist {
+  --background: #ffffff;
+  --text: #414856;
+  --check: #4f29f0;
+  --disabled: #c3c8de;
+  --width: 100px;
+  --height: 140px;
+  --border-radius: 10px;
+  background: var(--background);
+  width: var(--width);
+  height: var(--height);
+  border-radius: var(--border-radius);
+  position: relative;
+  box-shadow: 0 10px 30px rgba(#414856, 0.05);
+  padding: 30px 45px;
+  display: grid;
+}
