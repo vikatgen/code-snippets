@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  background: #eff3fe;
+}
+
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 17px 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  white-space: nowrap;
+  color: #464448;
+  overflow: hidden;
+  background: #366cc8;
+  border-radius: 50%;
+  box-shadow: 0 3px 10px -2px rgba(black, 0.25);
+  transition: 0.2s;
+  &.open {
+    background: white;
+    border: 1px solid #ccc;
+    width: 165px;
+    height: 138px;
+    border-radius: 2px;
+    .menu-button {
+      color: #999;
+      transform: rotate(45deg);
+      cursor: pointer;
+    }
+    .menu-content {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}
+
+.menu-button {
+  font-weight: 400;
+  border: 0;
+  background: none;
+  color: white;
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  font-size: 34px;
+  padding: 0px;
+  width: 20px;
+  height: 20px;
+  line-height: 12px;
+  transition: 0.2s;
+  user-select: none;
+  cursor: pointer;
+}
+.menu-title {
+  font-size: 12px;
+  margin: 0 0 13px 0;
+}
+
+.menu-content {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+}
+.menu-content-list {
+  list-style: none;
+  li {
+    margin: 0 0 3px 0;
+    transform: translateX(20px);
+    transition: 0.2s;
+    &:nth-child(1) {
+      transition-delay: 0.08s;
+      svg {
+        fill: #66bb6a;
+      }
+    }
+    &:nth-child(2) {
+      transition-delay: 0.12s;
+      svg {
+        fill: #66bb6a;
+      }
+    }
+    &:nth-child(3) {
+      transition-delay: 0.16s;
+      svg {
+        fill: #ff8f00;
+      }
+    }
+    .menu.open & {
+      transform: translateX(0);
+    }
+    .list-heading {
+      opacity: 0.5;
+    }
+  }
+  svg {
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+  }
+}

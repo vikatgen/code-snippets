@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+
+$heading: "Pacifico", cursive;
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.header-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  span {
+    font-family: $heading;
+  }
+}
