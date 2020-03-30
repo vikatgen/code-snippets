@@ -2,7 +2,7 @@
 
 $heading: "Pacifico", cursive;
 $ff-normal: "Montserrat", sans-serif;
-$text-color: #fdd032;
+$text-color: #2f4858;
 $heading-color: #ff6f91;
 
 .container {
@@ -11,23 +11,18 @@ $heading-color: #ff6f91;
   margin: auto;
 }
 
-.link-wrapper {
-  padding-top: 50px;
-  a {
-    text-decoration: none;
-    font-family: $ff-normal;
-    color: $text-color;
-    font-family: 600;
-    background: #6c63f9;
-    padding: 16px 32px;
-    border-radius: 50px;
-  }
+a {
+  text-decoration: none;
+  font-family: $ff-normal;
+  color: $text-color;
+  font-family: 600;
 }
 
 .header-wrapper {
   width: 100%;
   text-align: center;
-  margin: 50px 0px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   span {
     font-family: $heading;
     font-size: 3rem;
@@ -38,15 +33,4 @@ $heading-color: #ff6f91;
 #page-break {
   width: 100vw;
   height: auto;
-  overflow: hidden;
-  margin-bottom: -8px;
-  img {
-    width: 100%;
-  }
-}
-
-.links-section {
-  width: 100vw;
-  height: 100vh;
-  background: #eff3fe;
 }

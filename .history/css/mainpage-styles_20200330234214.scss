@@ -2,7 +2,7 @@
 
 $heading: "Pacifico", cursive;
 $ff-normal: "Montserrat", sans-serif;
-$text-color: #fdd032;
+$text-color: #2f4858;
 $heading-color: #ff6f91;
 
 .container {
@@ -11,17 +11,11 @@ $heading-color: #ff6f91;
   margin: auto;
 }
 
-.link-wrapper {
-  padding-top: 50px;
-  a {
-    text-decoration: none;
-    font-family: $ff-normal;
-    color: $text-color;
-    font-family: 600;
-    background: #6c63f9;
-    padding: 16px 32px;
-    border-radius: 50px;
-  }
+a {
+  text-decoration: none;
+  font-family: $ff-normal;
+  color: $text-color;
+  font-family: 600;
 }
 
 .header-wrapper {
@@ -39,7 +33,7 @@ $heading-color: #ff6f91;
   width: 100vw;
   height: auto;
   overflow: hidden;
-  margin-bottom: -8px;
+  margin-bottom: -5px;
   img {
     width: 100%;
   }

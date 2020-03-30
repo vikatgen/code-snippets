@@ -5,23 +5,46 @@
   margin: auto;
 }
 
-a {
+.link-wrapper {
+  padding-top: 50px;
+}
+
+.link-wrapper a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  color: #2f4858;
+  color: #fdd032;
   font-family: 600;
+  background: #6c63f9;
+  padding: 16px 32px;
+  border-radius: 50px;
 }
 
 .header-wrapper {
   width: 100%;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin: 50px 0px;
 }
 
 .header-wrapper span {
   font-family: "Pacifico", cursive;
   font-size: 3rem;
   color: #ff6f91;
+}
+
+#page-break {
+  width: 100vw;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: -8px;
+}
+
+#page-break img {
+  width: 100%;
+}
+
+.links-section {
+  width: 100vw;
+  height: 100vh;
+  background: #eff3fe;
 }
 /*# sourceMappingURL=mainpage-styles.css.map */
